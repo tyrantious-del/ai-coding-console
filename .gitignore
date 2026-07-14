@@ -1,0 +1,11 @@
+node_modules/
+dist/
+dist-server/
+coverage/
+.vite/
+.tmp/
+.env
+.env.*
+.ai-coding-console/
+*.log
+*.tsbuildinfo
