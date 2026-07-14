@@ -35,7 +35,7 @@ AI Coding Console pulls those signals into one place so you can see what is acti
 
 ## Attribution
 
-AI Coding Console was inspired by [tyrantious-del/claude-task-viewer](https://github.com/tyrantious-del/claude-task-viewer). That project established the useful idea of a local dashboard for Claude task visibility. AI Coding Console builds on that concept by expanding the view across Claude, Codex, and GitHub Copilot, adding context budgeting, model metadata, provider/model tracking, and viewer-local cleanup controls.
+AI Coding Console was inspired by [claude-task-viewer](https://github.com/L1AD/claude-task-viewer). That project established the useful idea of a local dashboard for Claude task visibility. AI Coding Console builds on that concept by expanding the view across Claude, Codex, and GitHub Copilot, adding context budgeting, model metadata, provider/model tracking, and viewer-local cleanup controls.
 
 This project does not copy the single-file implementation from `claude-task-viewer`; it uses a TypeScript Node API plus React/Vite frontend and separate read-only adapters.
 
