@@ -1,6 +1,8 @@
 <img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/969c73b2-f19a-48ec-817f-44059f82a8fc" />
 
 
+![AI Coding Console banner](src/assets/readme-banner.png)
+
 AI Coding Console is a local dashboard for keeping track of AI coding agent work across Claude, Codex, and GitHub Copilot. It scans local task/session stores, normalizes them into one Kanban-style view, estimates context size, and lets you keep a small local registry of providers and models you want to use.
 
 <img width="1189" height="908" alt="image" src="https://github.com/user-attachments/assets/45cd3dca-1c25-4669-9677-316567ee4687" />
