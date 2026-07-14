@@ -6,5 +6,5 @@ const host = process.env.HOST ?? "127.0.0.1";
 const app = createApp();
 
 app.listen(port, host, () => {
-  console.log(`Model Manager API listening at http://${host}:${port}`);
+  console.log(`AI Coding Console listening at http://${host}:${port}`);
 });

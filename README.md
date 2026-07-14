@@ -72,6 +72,24 @@ That state file is gitignored by default.
 
 ## Run Locally
 
+### Use with npx
+
+After the package is published to npm, run:
+
+```powershell
+npx ai-coding-console
+```
+
+Then open:
+
+```text
+http://127.0.0.1:3000
+```
+
+The `npx` command serves the built app and API from one local process. It reads your local agent stores and writes viewer-only cleanup state to `.ai-coding-console/state.json` in the current working directory.
+
+### Development
+
 ```powershell
 npm install
 npm run dev
@@ -88,6 +106,30 @@ The API listens on:
 ```text
 http://127.0.0.1:3456
 ```
+
+For a production-style local run from a clone:
+
+```powershell
+npm run build
+npm start
+```
+
+## npm Package
+
+The package exposes this command:
+
+```powershell
+ai-coding-console
+```
+
+Maintainers can publish it publicly with:
+
+```powershell
+npm login
+npm publish --access public
+```
+
+`prepublishOnly` runs the full build before publishing so the npm package includes the compiled frontend and server.
 
 ## API
 
