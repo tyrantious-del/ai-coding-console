@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/tyrantious-del/ai-coding-console#readme",
   "bin": {
-    "ai-coding-console": "./bin/ai-coding-console.js"
+    "ai-coding-console": "bin/ai-coding-console.js"
   },
   "files": [
     "bin",
