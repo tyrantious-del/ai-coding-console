@@ -1,6 +1,9 @@
-# AI Coding Console
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/969c73b2-f19a-48ec-817f-44059f82a8fc" />
+
 
 AI Coding Console is a local dashboard for keeping track of AI coding agent work across Claude, Codex, and GitHub Copilot. It scans local task/session stores, normalizes them into one Kanban-style view, estimates context size, and lets you keep a small local registry of providers and models you want to use.
+
+<img width="1189" height="908" alt="image" src="https://github.com/user-attachments/assets/45cd3dca-1c25-4669-9677-316567ee4687" />
 
 The app is local-first. It reads the native agent stores on your machine and keeps its own viewer-only state for cleanup actions such as hiding tasks or stale sessions. It does not delete or mutate Claude, Codex, or Copilot source files.
 
